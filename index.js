@@ -247,7 +247,7 @@ console.log(`doubleValue(23) = ${doubleValue(23)}`);
 {
   // events, closures and anonymous function
   let counter = 0;
-  const div = document.getElementsByTagName('div')[0];
+  const div = document.getElementsByTagName('button')[0];
   div.addEventListener('click', () => {
     div.innerText = ++counter;
   });
